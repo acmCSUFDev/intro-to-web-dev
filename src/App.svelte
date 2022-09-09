@@ -9,7 +9,7 @@
       <img src={devLogo} class="logo dev" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Svelte Portfolio Template</h1>
+  <h1>Svelte Website Template</h1>
 
   <div class="card">
     <Counter />
