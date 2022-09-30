@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>›
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,24 +9,51 @@
       /* selects everything */
       * {
         font-family: "Comic Sans MS";
+        margin: 0;
+        padding: 0;
       }
-  
+
       /* selects all of a tag */
       h1, h2, p {
-        color: green;
+        color: #fffcf2;
         text-align: center;
       }
+      h2, p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      body {
+        background-color: #252422;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      li {
+        color: #FFFCF2;
+        padding: 20px 0;
+        margin-left: 40px;
+        font-weight: 700;
+        font-size: 32px;
+      }
+      a {
+        color: #FFFCF2;
+      }
       /* selects all of a class */
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
       .box {
             width: 500px;
-            height: 50px;
-            margin: 20px;
-            padding: 20px;
-            border: black 5px solid;
+            padding: 15px;
+            border: #EB5E28 5px solid;
             border-radius: 20px;
         }
       .box-shadow {
-        box-shadow: 10px 10px 30px gray;
+        box-shadow: 5px 5px 30px #CCC5B9;
       }
       /* selects an id */
       #title {
@@ -35,17 +62,17 @@
     </style>
   </head>
   <body>
-    <div>
+    <div class="container">
       <h1 id="title">welcome to frank's portfolio</h1>
       <p class="box box-shadow">hi i'm frank, i love web dev!</p>
     </div>
     <div>
-      <img src="frank pride.png" alt="frank" />
+      <img src="frank-holding-html.png" alt="frank" />
       <p>this me!</p>
     </div>
     <div>
       <h2>work experiences</h2>
-      <ul class="box">
+      <ul class="box box-shadow">
         <li><a href="https://acmcsuf.com">acmCSUF</a></li>
         <li>
           <a href="https://www.instagram.com/acmcsuf/">acmCSUF on instagram</a>
