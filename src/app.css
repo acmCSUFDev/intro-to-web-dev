@@ -1,3 +1,4 @@
+/* SAME AS ORIGINAL */
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -14,9 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+/* NEW */
 html {
   scroll-behavior: smooth;
 }
+/* SAME AS ORIGINAL */
 a {
   font-weight: 500;
   color: #646cff;
@@ -29,6 +32,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }

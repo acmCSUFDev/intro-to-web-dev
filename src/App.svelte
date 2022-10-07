@@ -6,11 +6,11 @@
 </script>
 
 <main>
+  <NavBar />
   <div>
-    <NavBar />
     <About name={"Frank"} />
     <Experiences />
-    <Projects/>
+    <Projects />
   </div>
 </main>
 

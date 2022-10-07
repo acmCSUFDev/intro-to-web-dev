@@ -20,7 +20,7 @@
 </script>
 
 <section class="container__exps" id="Experiences">
-  <p class="header__exp--big">Experiences</p>
+  <p class="header--big">Experiences</p>
   {#each exps as { title, duration }}
     <div class="container__exp">
       <p class="header__title">{title}</p>
@@ -36,7 +36,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .header__exp--big {
+  .header--big {
     font-size: 2.5rem;
     font-weight: 780;
   }

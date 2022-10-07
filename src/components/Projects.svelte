@@ -24,7 +24,7 @@
 </script>
 
 <section class="container__projects" id="Projects">
-  <p class="header__projects--big">Projects</p>
+  <p class="header--big">Projects</p>
   {#each projects as { title, description, url }}
     <div class="container__project">
       <a href={url} target="_blank">
@@ -42,7 +42,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .header__projects--big {
+  .header--big {
     font-size: 2.5rem;
     font-weight: 780;
   }
