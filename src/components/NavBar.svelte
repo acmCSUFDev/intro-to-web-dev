@@ -14,16 +14,25 @@
 
 <nav>
   <section class="container__nav" id="/">
-    {#each navItems as { title, url }}
-      <a href={url} class="nav__item">
-        {title}
-      </a>
-    {/each}
-    <p class="time">{time.toLocaleDateString(undefined, options)}</p>
+    <ol class="container_nav" id="/">
+      {#each navItems as { title, url }}
+        <li>
+          <a href={url} class="nav__item">
+            {title}
+          </a>
+        </li>
+      {/each}
+    </ol>    <p class="time">{time.toLocaleDateString(undefined, options)}</p>
   </section>
 </nav>
 
 <style>
+   ol {
+    list-style: none;
+  }
+  li {
+    padding: 0;
+  }
   .container__nav {
     display: flex;
     justify-content: center;
