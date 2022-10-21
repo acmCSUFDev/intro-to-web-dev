@@ -22,7 +22,8 @@
           </a>
         </li>
       {/each}
-    </ol>    <p class="time">{time.toLocaleDateString(undefined, options)}</p>
+    <p class="time">{time.toLocaleDateString(undefined, options)}</p>
+  </ol>
   </section>
 </nav>
 
