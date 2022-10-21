@@ -14,7 +14,7 @@
 
 <nav>
   <section class="container__nav" id="/">
-    <ol class="container_nav" id="/">
+    <ol class="container__nav" id="/">
       {#each navItems as { title, url }}
         <li>
           <a href={url} class="nav__item">
