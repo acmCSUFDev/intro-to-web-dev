@@ -17,6 +17,6 @@
 
 ### [Intro to Web Dev Blog #3](https://acmcsuf.com/blog/627)
 
-## Part 4 - Experienes + Projects Component
+## Part 4 - Experiences + Projects Component
 
 In progress ...
