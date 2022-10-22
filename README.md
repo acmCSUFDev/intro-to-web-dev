@@ -1,7 +1,7 @@
 # Bulid Portfolio Website with Svelte
 > [Learn more about Svelte here](https://svelte.dev)
 
-## Svelte Basics
+## Part 0 - Svelte Basics
 
 ### [PDF Slides](https://github.com/acmCSUFDev/intro-to-web-dev/files/9844067/Intro_to_Web_Dev_2.pdf)
 
